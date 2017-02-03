@@ -1,0 +1,10 @@
+
+class ProbandoConstantesFinal {
+	public static void main(String[] args){
+		System.out.println("Hola Mundo");
+		
+		final byte a = 1; //constante
+		final byte b = 5;
+		byte c = a+b;
+	}
+}
