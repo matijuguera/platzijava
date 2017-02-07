@@ -1,0 +1,7 @@
+
+class asddas {
+	public static void main(String[] args){
+		int i=7;
+		char c= 'w';		
+		}
+}

@@ -1,0 +1,11 @@
+import java.lang.Math;
+
+class ValorAbsoluto {
+	
+	public ValorAbsoluto(){
+	}
+	
+	public double calcularValorAbsoluto(double n){
+		return Math.abs(n);
+	}
+}

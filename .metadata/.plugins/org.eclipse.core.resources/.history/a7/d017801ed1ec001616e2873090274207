@@ -1,0 +1,14 @@
+import java.lang.Math;
+
+class ValorAbsoluto {
+	
+	public ValorAbsoluto(){
+	}
+	
+	public double calcularValorAbsoluto(double n){
+		return Math.abs(n);
+	}
+	public double calcularRaizCuadrada(double n){
+		return Math.sqrt(n);
+	}
+}

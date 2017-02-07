@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+
+class testFor {
+	/*
+	 *  Crea una clase con un método main que pida una entrada de teclado y usando un bucle for, el método length de la clase String y el método substring de la clase String,
+	 *  muestre cada una de las letras que componen la entrada.
+	 *  Por ejemplo si se introduce “ave” debe mostrar:
+	 *  letra 1: a
+	 *  letra 2: v
+	 *  letra 3: e
+	 */
+	public static void main(String[] args){
+		System.out.println("Ingrese una palabra:");
+		Scanner scanner = new Scanner(System.in);
+		String entradaTeclado;
+		entradaTeclado = scanner.nextLine();
+		scanner.close();
+		System.out.println(entradaTeclado.substring(0,1));
+		System.out.println(entradaTeclado.substring(1,2));
+		System.out.println(entradaTeclado.substring(3,4));
+	}
+}
+/*		for(int i=1;i<entradaTeclado.length()-1;i++){
+System.out.println(entradaTeclado.substring(i,i));
+*/

@@ -1,0 +1,23 @@
+import java.util.ArrayList;
+
+
+class Programador extends Persona {
+	
+	private ArrayList<String> lenguajes; 
+
+	public Programador(String nombre, String apellido, int edad, double altura,String nacionalidad) {
+		super(nombre, apellido, edad, altura, nacionalidad);
+	}
+	
+	public ArrayList<String> getLenguajes() {
+		return lenguajes;
+	}
+
+	public void setLenguajes(ArrayList<String> lenguajes) {
+		this.lenguajes = lenguajes;
+	}
+	public void mostrarPersona(){
+		super.mostrarProgramador();
+	}
+
+}
